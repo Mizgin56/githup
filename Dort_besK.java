@@ -5,23 +5,23 @@ import java.util.Scanner;
 public class Dort_besK {
 
 	public static void main(String[] args) {
-		// Girilen sayıya kadar 4 ve 5'in katını bulma
+		// Girilen sayÄ±ya kadar 4 ve 5'in katÄ±nÄ± bulma
 		
 		int sayi;
 		
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.print("Lütfen işlem yapmak istediğiniz sayıyı giriniz : ");
+		System.out.print("LÃ¼tfen iÅŸlem yapmak istediÄŸiniz sayÄ±yÄ± giriniz : ");
 		sayi = scan.nextInt();
 		
-		for(int i = 1; i<sayi; i*= 2) {
-			System.out.println("2'nin Katları : " + i);
+		for(int i = 1; i<sayi; i*= 5) {
+			System.out.println("5'nin KatlarÄ± : " + i);
 		
 			}
 		System.out.println("-----------------------------------------");
 		
 		for(int j = 1; j<sayi; j*= 4) {
-				System.out.println("4'ün Katları : " + j);
+				System.out.println("4'Ã¼n KatlarÄ± : " + j);
 			 
 				
 			
