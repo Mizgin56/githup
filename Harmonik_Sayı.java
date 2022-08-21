@@ -12,13 +12,13 @@ public class Harmonik_Sayi {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.print("Lütfen iþlem yapmak istediðiniz sayýyý girinzi : ");
+		System.out.print("Lütfen islem yapmak istediginiz sayiyi giriniz : ")
 		sayi = scan.nextDouble();
 		
 		for(double i = 1; i<=sayi; i++) {
 			toplam += (1/i);
 		}
-		System.out.print("Ýþlem sonucu : " + toplam);
+		System.out.print("Islem sonucu : " + toplam);
 	}
 
 }
