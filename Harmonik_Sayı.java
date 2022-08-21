@@ -2,23 +2,23 @@ package Kodluyoruz;
 
 import java.util.Scanner;
 
-public class Harmonik_Sayı {
+public class Harmonik_Sayi {
 
 	public static void main(String[] args) {
-		// Harmonik sayı bulma
+		// Harmonik sayÃ½ bulma
 		
 		double sayi;
 		double toplam = 0;
 		
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.print("Lütfen işlem yapmak istediğiniz sayıyı girinzi : ");
+		System.out.print("LÃ¼tfen iÃ¾lem yapmak istediÃ°iniz sayÃ½yÃ½ girinzi : ");
 		sayi = scan.nextDouble();
 		
 		for(double i = 1; i<=sayi; i++) {
 			toplam += (1/i);
 		}
-		System.out.print("İşlem sonucu : " + toplam);
+		System.out.print("ÃÃ¾lem sonucu : " + toplam);
 	}
 
 }
